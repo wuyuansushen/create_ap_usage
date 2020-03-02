@@ -1,9 +1,9 @@
 # create_ap_usage
 Base usage of create_ap in Linux
 
-### ***This manual is base on a script in github named [create_ap](https://github.com/oblique/create_ap)***
+### ***This manual is base on a project in github named [create_ap](https://github.com/oblique/create_ap)***
 
-## 1. Download the script
+## 1. Download the project
 
 ```
 git clone https://github.com/oblique/create_ap.git
