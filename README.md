@@ -58,3 +58,10 @@ NTERNET_IFACE=enp2s0       #Your Physical/Internet Interface Name
 SSID=GKD                   #Your WiFi Name
 PASSPHRASE=200403404       #Your WiFi Password
 ```
+
+### 2.5 Start/Enable/Restart/Status
+```
+systemctl start create_ap.service
+systemctl enable create_ap.service  #Optional
+systemctl status create_ap.service
+```
