@@ -15,7 +15,7 @@ git clone https://github.com/oblique/create_ap.git
 apt install bash util-linux procps hostapd iproute2 iw
 ```
 
-## 2. Configuration
+## 2. Configuration And Start
 
 ### 2.1 Enter the floder
 ```
