@@ -9,7 +9,7 @@ Base usage of create_ap in Linux
 git clone https://github.com/oblique/create_ap.git
 ```
 
-## 2. Install dependency
+## 2. Install dependencies
 
 ```
 apt install bash util-linux procps hostapd iproute2 iw
