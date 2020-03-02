@@ -43,9 +43,9 @@ ifconfig
 
 Get two Interface Names:
 
-***Physical/Internet Interface***: First two letters are ***en***
+***Physical/Internet Interface***: First two letters are ***"en"***
 
-***WLAN Interface***: First two letters are ***wl***
+***WLAN Interface***: First two letters are ***"wl"***
 
 ### 2.4 Configure file( `/etc/create_ap.conf` )
 
