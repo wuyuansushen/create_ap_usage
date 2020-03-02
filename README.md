@@ -35,13 +35,13 @@ cd ~
 rm -r ~/create_ap
 ```
 
-### 3.3 Get information of Network Interface
+### 3.3 Check information of Network Interface
 
 ```
 ifconfig
 ```
 
-Get two Interface Names:
+Record two Interface Names:
 
 ***Physical/Internet Interface***: First two letters are ***"en"***
 
