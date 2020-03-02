@@ -15,14 +15,14 @@ git clone https://github.com/oblique/create_ap.git
 apt install bash util-linux procps hostapd iproute2 iw
 ```
 
-## 2. Configuration And Start
+## 3. Configuration
 
-### 2.1 Enter the floder
+### 3.1 Enter the floder
 ```
 cd ~/create_ap
 ```
 
-### 2.2 Install ***create_ap***
+### 3.2 Install ***create_ap***
 
 ```
 make install
@@ -35,7 +35,7 @@ cd ~
 rm -r ~/create_ap
 ```
 
-### 2.3 Get information of Network Interface
+### 3.3 Get information of Network Interface
 
 ```
 ifconfig
@@ -47,7 +47,7 @@ Get two Interface Names:
 
 ***WLAN Interface***: First two letters are ***"wl"***
 
-### 2.4 Configure file( `/etc/create_ap.conf` )
+### 3.4 Configure file( `/etc/create_ap.conf` )
 
 
 Adjust these items:
@@ -59,7 +59,7 @@ SSID=GKD                   #Your WiFi Name
 PASSPHRASE=200403404       #Your WiFi Password
 ```
 
-### 2.5 Start/Enable/Restart/Status
+## 4 Start/Enable/Restart/Status
 ```
 systemctl start create_ap.service
 systemctl enable create_ap.service  #Optional
