@@ -41,11 +41,13 @@ rm -r ~/create_ap
 ifconfig
 ```
 
-Record two Interface Names:
+#### Record two Interface Names:
 
-***Physical/Internet Interface***: First two letters are ***"en"***
+#### Diffrent kinds of Network Devices may have diffrent names, You chould use these rules to identify them below.
 
-***WLAN Interface***: First two letters are ***"wl"***
+<1> ***Physical/Internet Interface***: First two letters are ***"en"***
+
+<2> ***WLAN Interface***: First two letters are ***"wl"***
 
 ### 3.4 Configure file( `/etc/create_ap.conf` )
 
