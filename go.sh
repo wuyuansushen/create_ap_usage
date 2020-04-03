@@ -38,8 +38,5 @@ sed -i "${PassLine}d" /etc/create_ap.conf
 sed -i "$((${PassLine}-1))a PASSPHRASE=${WIFIPassword}" /etc/create_ap.conf
 cd ..
 rm -r ./create_ap
-cd ..
-rm -r ./create_ap_usage
-cd ~
 systemctl daemon-reload
 systemctl start create_ap.service
