@@ -1,6 +1,14 @@
 # create_ap_usage
 Base usage of create_ap in Linux
 
+There are 2 choices
+
+## Choice1:Automatic (Recommended)
+
+Only Use `bash go.sh` to configure it!
+
+## Choice2:Manual
+
 ### ***This manual is base on a project in github named [create_ap](https://github.com/oblique/create_ap)***
 
 ## 1. Download the project
