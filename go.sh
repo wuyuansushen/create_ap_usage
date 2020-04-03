@@ -27,7 +27,7 @@ PassLine=$(cat /etc/create_ap.conf | grep -ne "^PASSPHRASE" | awk -F ":" '{print
 sed -i "${WlanLine}d" /etc/create_ap.conf
 sed -i "$((${WlanLine}-1))a WIFI_IFACE=${Wlan}" /etc/create_ap.conf
 sed -i "${PhyLine}d" /etc/create_ap.conf
-sed -i "$((${PhyLine}-1))a INTERNET_IFACE=${PhyLine}" /etc/create_ap.conf
+sed -i "$((${PhyLine}-1))a INTERNET_IFACE=${Physical}" /etc/create_ap.conf
 echo "Your WIFI Name:"
 read WIFIName
 sed -i "${SSIDLine}d" /etc/create_ap.conf
@@ -38,4 +38,7 @@ sed -i "${PassLine}d" /etc/create_ap.conf
 sed -i "$((${PassLine}-1))a PASSPHRASE=${WIFIPassword}" /etc/create_ap.conf
 cd ..
 rm -r ./create_ap
+cd ..
+rm -r ./create_ap_usage
+systemctl daemon-reload
 systemctl start create_ap.service
