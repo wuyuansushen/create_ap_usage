@@ -56,7 +56,7 @@ Adjust these items:
 
 ```
 WIFI_IFACE=wlp3s0          #Your WLAN Interface Name
-NTERNET_IFACE=enp2s0       #Your Physical/Internet Interface Name
+INTERNET_IFACE=enp2s0       #Your Physical/Internet Interface Name
 SSID=GKD                   #Your WiFi Name
 PASSPHRASE=200403404       #Your WiFi Password
 ```
